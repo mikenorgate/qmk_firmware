@@ -20,4 +20,6 @@ RGB_MATRIX_ENABLE = yes      # Enable RGB matrix effects.
 RGB_MATRIX_DRIVER = AW20216  # Enable RGB matrix effects.
 FLASH_DRIVER = spi           # Enable SPI flash
 EEPROM_DRIVER = custom       # Enable SPI flash memory
-SRC +=  src/eeprom_flash.c
+CAPS_WORD_ENABLE = yes
+KEY_LOCK_ENABLE = yes
+SRC +=  ../src/eeprom_flash.c
